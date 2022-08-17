@@ -12,7 +12,7 @@ app.use(express.json());
 // dotenv
 dotenv.config();
 // Cors config Access
-const whitelist = ['http://localhost:8080', 'https://mydomain.com'];
+const whitelist = ['http://localhost:8080', 'https://oschen.netlify.app'];
 const options = {
   origin: (origin, callback) => {
     if(whitelist.includes(origin) || !origin) {
