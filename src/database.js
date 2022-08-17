@@ -1,5 +1,5 @@
 
-// const mysql = require('mysql');
+// const mysql = require('mysql'); // conexión con base de datos mysql
 
 // const mysqlConnection = mysql.createConnection({
 //   host: process.env.DB_HOST,
